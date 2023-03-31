@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>octokit on zzzmisa&#39;s blog</title>
+    <link>https://blog.zzzmisa.com/tags/octokit/</link>
+    <description>Recent content in octokit on zzzmisa&#39;s blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja-JP</language>
+    <lastBuildDate>Sat, 04 Feb 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.zzzmisa.com/tags/octokit/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>OctokitとGitHub AppsでGitHub APIを叩く</title>
+      <link>https://blog.zzzmisa.com/octokit-with-github-app/</link>
+      <pubDate>Sat, 04 Feb 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.zzzmisa.com/octokit-with-github-app/</guid>
+      <description>Octokit を使って GitHub API を叩く際に、認証方法を Personal Access Token から GitHub Apps に切り替えました。 Personal Access Token で行う方法と、 GitHub Apps で行う方法をそれぞれをメモしておきます。 環境 Node.js 16.15.0</description>
+    </item>
+    
+  </channel>
+</rss>

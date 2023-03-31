@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>advent-calendar on zzzmisa&#39;s blog</title>
+    <link>https://blog.zzzmisa.com/tags/advent-calendar/</link>
+    <description>Recent content in advent-calendar on zzzmisa&#39;s blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja-JP</language>
+    <lastBuildDate>Sun, 05 Dec 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.zzzmisa.com/tags/advent-calendar/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>日本語しか読みたくない人ためのGitHubランキング</title>
+      <link>https://blog.zzzmisa.com/japan-github-ranking/</link>
+      <pubDate>Sun, 05 Dec 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.zzzmisa.com/japan-github-ranking/</guid>
+      <description>この記事は クソアプリ Advent Calendar 2021 の 5 日目の記事です 🎄✨ 2019 年に参加してから 2 年ぶりの参加です。 作ったもの GitHub 徘徊、英語ばっかりで辛い…。 面白いリポジト</description>
+    </item>
+    
+    <item>
+      <title>Snykの脆弱性データベースってどれくらい凄いの？</title>
+      <link>https://blog.zzzmisa.com/try-snyk/</link>
+      <pubDate>Wed, 01 Dec 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.zzzmisa.com/try-snyk/</guid>
+      <description>この記事はアドベントカレンダー Snyk を使ってセキュリティにまつわる記事を投稿しよう！【PR】Snyk の 1 日目の記事です 🎅✨ 良い機会なので、Sny</description>
+    </item>
+    
+    <item>
+      <title>オープンデータカレーを使ったゲームアプリを作った</title>
+      <link>https://blog.zzzmisa.com/curryjack/</link>
+      <pubDate>Mon, 23 Dec 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.zzzmisa.com/curryjack/</guid>
+      <description>この記事は クソアプリ 2 Advent Calendar 2019 の 23 日目の記事です 🎄✨ オープンデータのカレー画像を使ったゲームアプリ カレージャック を作りました！ デモ: https://curryjack.zzzmisa.com/ ソース:</description>
+    </item>
+    
+    <item>
+      <title>個人開発 ❤ Vue.jsとBulmaでアイキャッチメーカーをリニューアル</title>
+      <link>https://blog.zzzmisa.com/featured-image-maker/</link>
+      <pubDate>Sun, 03 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.zzzmisa.com/featured-image-maker/</guid>
+      <description>今更ですが、Vue.js Advent Calendar 2018の 24 日目が空いていたので埋めてみました。 これで 3 回連続アドベントカレンダーの 24 日目をゲットです！メリーク</description>
+    </item>
+    
+    <item>
+      <title>Raspberry Pi用学習リモコン基板ADRSIRとAlexaでスマートホーム</title>
+      <link>https://blog.zzzmisa.com/adrsir/</link>
+      <pubDate>Mon, 24 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.zzzmisa.com/adrsir/</guid>
+      <description>この記事はおうちハック Advent Calendar 2018の 24 日目です。メリークリスマス！！ Raspberry Pi 用の学習リモコン基板と Alexa でスマートホームにチャレンジしました。 こんな</description>
+    </item>
+    
+    <item>
+      <title>Raspberry Piで固定IPアドレス</title>
+      <link>https://blog.zzzmisa.com/raspberrypi_ipaddress/</link>
+      <pubDate>Sun, 23 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.zzzmisa.com/raspberrypi_ipaddress/</guid>
+      <description>環境 Raspberry Pi 3（以下ラズパイ） # Raspbianのバージョン確認 $ lsb_release -a No LSB modules are available. Distributor ID: Raspbian Description: Raspbian GNU/Linux 8.0 (jessie) Release: 8.0 Codename: jessie AirStation WSR-2533DHP2（以下エアステ</description>
+    </item>
+    
+    <item>
+      <title>アイキャッチ作成ツールをHTML&#43;CSS&#43;JSで作った</title>
+      <link>https://blog.zzzmisa.com/eye_catch_maker/</link>
+      <pubDate>Sun, 24 Dec 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.zzzmisa.com/eye_catch_maker/</guid>
+      <description>【2018 年 1 月 9 日追記】 この記事で紹介しているツールの正式版を公開しました。 よろしければご活用ください！ https://featured-image-maker.zzzmisa.com/ この記事はCSS Advent Calendar 2017の 24</description>
+    </item>
+    
+    <item>
+      <title>大阪へのJターン転職活動</title>
+      <link>https://blog.zzzmisa.com/job_hunting/</link>
+      <pubDate>Fri, 16 Dec 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.zzzmisa.com/job_hunting/</guid>
+      <description>この記事は転職 Advent Calendar 2016 16 日目です。 書くこと 東京から大阪に J ターンしたので、転職活動がどれくらい大変だったか書きます。 ほんの一例ですが、UIJ タ</description>
+    </item>
+    
+  </channel>
+</rss>
