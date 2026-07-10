@@ -1,1 +1,23 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>octokit on zzzmisa's blog</title><link>https://blog.zzzmisa.com/tags/octokit/</link><description>Recent content in octokit on zzzmisa's blog</description><generator>Hugo -- gohugo.io</generator><language>ja-JP</language><lastBuildDate>Sat, 04 Feb 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.zzzmisa.com/tags/octokit/index.xml" rel="self" type="application/rss+xml"/><item><title>OctokitとGitHub AppsでGitHub APIを叩く</title><link>https://blog.zzzmisa.com/octokit-with-github-app/</link><pubDate>Sat, 04 Feb 2023 00:00:00 +0000</pubDate><guid>https://blog.zzzmisa.com/octokit-with-github-app/</guid><description>Octokit を使って GitHub API を叩く際に、認証方法を Personal Access Token から GitHub Apps に切り替えました。 Personal Access Token で行う方法と、 GitHub Apps で行う方法をそれぞれをメモしておきます。 環境 Node.js 16.15.0</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Octokit on zzzmisa's blog</title><link>https://blog.zzzmisa.com/tags/octokit/</link><description>Recent content in Octokit on zzzmisa's blog</description><generator>Hugo</generator><language>ja-JP</language><lastBuildDate>Sat, 04 Feb 2023 00:00:00 +0900</lastBuildDate><atom:link href="https://blog.zzzmisa.com/tags/octokit/index.xml" rel="self" type="application/rss+xml"/><item><title>OctokitとGitHub AppsでGitHub APIを叩く</title><link>https://blog.zzzmisa.com/octokit-with-github-app/</link><pubDate>Sat, 04 Feb 2023 00:00:00 +0900</pubDate><guid>https://blog.zzzmisa.com/octokit-with-github-app/</guid><description>&lt;p&gt;Octokit を使って GitHub API を叩く際に、認証方法を Personal Access Token から GitHub Apps に切り替えました。&lt;br&gt;
+Personal Access Token で行う方法と、 GitHub Apps で行う方法をそれぞれをメモしておきます。&lt;/p&gt;
+&lt;h2 id="環境"&gt;環境&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Node.js 16.15.0&lt;/li&gt;
+&lt;li&gt;@octokit/core 3.5.1 (Personal Access Token)&lt;br&gt;
+-&amp;gt; @octokit/app 13.1.2 (GitHub Apps) への移行&lt;/li&gt;
+&lt;li&gt;叩きたい API は GitHub REST API と GraphQL API&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="personal-access-token-を使って-github-api-を叩く"&gt;Personal Access Token を使って GitHub API を叩く&lt;/h2&gt;
+&lt;h3 id="personal-access-token-の準備"&gt;Personal Access Token の準備&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;Settings -&amp;gt; Developer settings -&amp;gt; &lt;a href="https://github.com/settings/tokens" target="_blank" rel="noopener"&gt;Personal access tokens&lt;/a&gt; にアクセス。&lt;/li&gt;
+&lt;li&gt;Generete new token から、トークン作成ページを開く。&lt;/li&gt;
+&lt;li&gt;適切な Permissions などを設定し Personal Access Token を作成。&lt;br&gt;
+今回は GitHub API を通して public リポジトリへの 書き込みを行いたいので、public_repo (Access public repositories) にチェックを入れておく。&lt;br&gt;
+プライベートリポジトリにも書き込みたい場合は、repo ごと選択しておく。&lt;br&gt;
+これらは後からでも編集できる。&lt;/li&gt;
+&lt;li&gt;作成したトークンをメモしておく。&lt;br&gt;
+例: &lt;code&gt;ghp_Vde...&lt;/code&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id="github-api-を叩くソース"&gt;GitHub API を叩くソース&lt;/h3&gt;
+&lt;p&gt;メモしておいたトークンを使って Octokit インスタンスを作成し、GitHub API を叩きます。&lt;/p&gt;</description></item></channel></rss>

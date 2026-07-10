@@ -1,1 +1,22 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>raspberrypi on zzzmisa's blog</title><link>https://blog.zzzmisa.com/tags/raspberrypi/</link><description>Recent content in raspberrypi on zzzmisa's blog</description><generator>Hugo -- gohugo.io</generator><language>ja-JP</language><lastBuildDate>Mon, 24 Dec 2018 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.zzzmisa.com/tags/raspberrypi/index.xml" rel="self" type="application/rss+xml"/><item><title>Raspberry Pi用学習リモコン基板ADRSIRとAlexaでスマートホーム</title><link>https://blog.zzzmisa.com/adrsir/</link><pubDate>Mon, 24 Dec 2018 00:00:00 +0000</pubDate><guid>https://blog.zzzmisa.com/adrsir/</guid><description>この記事はおうちハック Advent Calendar 2018の 24 日目です。メリークリスマス！！ Raspberry Pi 用の学習リモコン基板と Alexa でスマートホームにチャレンジしました。 こんな</description></item><item><title>Raspberry Piで固定IPアドレス</title><link>https://blog.zzzmisa.com/raspberrypi_ipaddress/</link><pubDate>Sun, 23 Dec 2018 00:00:00 +0000</pubDate><guid>https://blog.zzzmisa.com/raspberrypi_ipaddress/</guid><description>環境 Raspberry Pi 3（以下ラズパイ） # Raspbianのバージョン確認 $ lsb_release -a No LSB modules are available. Distributor ID: Raspbian Description: Raspbian GNU/Linux 8.0 (jessie) Release: 8.0 Codename: jessie AirStation WSR-2533DHP2（以下エアステ</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Raspberrypi on zzzmisa's blog</title><link>https://blog.zzzmisa.com/tags/raspberrypi/</link><description>Recent content in Raspberrypi on zzzmisa's blog</description><generator>Hugo</generator><language>ja-JP</language><lastBuildDate>Sat, 12 Jan 2019 00:00:00 +0900</lastBuildDate><atom:link href="https://blog.zzzmisa.com/tags/raspberrypi/index.xml" rel="self" type="application/rss+xml"/><item><title>Raspberry Pi用学習リモコン基板ADRSIRとAlexaでスマートホーム</title><link>https://blog.zzzmisa.com/adrsir/</link><pubDate>Mon, 24 Dec 2018 00:00:00 +0900</pubDate><guid>https://blog.zzzmisa.com/adrsir/</guid><description>&lt;p&gt;この記事は&lt;a href="https://qiita.com/advent-calendar/2018/ouch-hack/" target="_blank" rel="noopener"&gt;おうちハック Advent Calendar 2018&lt;/a&gt;の 24 日目です。メリークリスマス！！&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;Raspberry Pi 用の学習リモコン基板と Alexa でスマートホームにチャレンジしました。&lt;br&gt;
+こんな感じで、エアコンや照明を Alexa から操作できます。&lt;/p&gt;</description></item><item><title>Raspberry Piで固定IPアドレス</title><link>https://blog.zzzmisa.com/raspberrypi_ipaddress/</link><pubDate>Sun, 23 Dec 2018 00:00:00 +0900</pubDate><guid>https://blog.zzzmisa.com/raspberrypi_ipaddress/</guid><description>&lt;h2 id="環境"&gt;環境&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://amzn.to/2CfAtMA" target="_blank" rel="noopener"&gt;Raspberry Pi 3&lt;/a&gt;（以下ラズパイ）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre tabindex="0"&gt;&lt;code&gt;# Raspbianのバージョン確認
+$ lsb_release -a
+No LSB modules are available.
+Distributor ID:	Raspbian
+Description:	Raspbian GNU/Linux 8.0 (jessie)
+Release:	8.0
+Codename:	jessie
+&lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://amzn.to/2D5z1Oo" target="_blank" rel="noopener"&gt;AirStation WSR-2533DHP2&lt;/a&gt;（以下エアステーション）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="エアステーションの-ip-アドレス設定"&gt;エアステーションの IP アドレス設定&lt;/h2&gt;
+&lt;p&gt;エアステーション設定ツールから、無線親機の IP アドレス設定を行っておく。&lt;br&gt;
+デフォルトでは、「DHCP サーバーから IP アドレスを自動的に取得する（かんたん）」にチェックが入っているので「次の IP アドレスを使う（上級者・管理者向け）」にチェックを入れる。&lt;br&gt;
+エアステーション自体の物理スイッチもデフォルトでは「AUTO」になっているので、「MANUAL」に変えておく。&lt;br&gt;
+以下のスクショでは 192.168.11.1 に設定。&lt;/p&gt;</description></item></channel></rss>

@@ -1,1 +1,26 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>heroku on zzzmisa's blog</title><link>https://blog.zzzmisa.com/tags/heroku/</link><description>Recent content in heroku on zzzmisa's blog</description><generator>Hugo -- gohugo.io</generator><language>ja-JP</language><lastBuildDate>Sat, 16 Sep 2017 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.zzzmisa.com/tags/heroku/index.xml" rel="self" type="application/rss+xml"/><item><title>HerokuにRailsアプリを公開する</title><link>https://blog.zzzmisa.com/heroku_with_rails/</link><pubDate>Sat, 16 Sep 2017 00:00:00 +0000</pubDate><guid>https://blog.zzzmisa.com/heroku_with_rails/</guid><description>Heroku に Rails アプリを公開する方法の備忘録です。 今回公開するのは、Rails 5 で作成したアプリアプリです。 公式ドキュメントのGetting Started with Rails 5.x on</description></item><item><title>HerokuのpostgresqlページがInternal Error</title><link>https://blog.zzzmisa.com/heroku_postgresql_internal_error/</link><pubDate>Sun, 10 Sep 2017 00:00:00 +0000</pubDate><guid>https://blog.zzzmisa.com/heroku_postgresql_internal_error/</guid><description>起こった問題 Heroku の postgresql ページがエラーで表示できませんでした。 エラー文は以下です。 Internal Error Couldn&amp;rsquo;t fetch detail about **** Sory about that! Our engineers have been notified. Perhaps return to the datastore list? Referenced from Heroku. エラーを検索して</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Heroku on zzzmisa's blog</title><link>https://blog.zzzmisa.com/tags/heroku/</link><description>Recent content in Heroku on zzzmisa's blog</description><generator>Hugo</generator><language>ja-JP</language><lastBuildDate>Sat, 16 Sep 2017 00:00:00 +0900</lastBuildDate><atom:link href="https://blog.zzzmisa.com/tags/heroku/index.xml" rel="self" type="application/rss+xml"/><item><title>HerokuにRailsアプリを公開する</title><link>https://blog.zzzmisa.com/heroku_with_rails/</link><pubDate>Sat, 16 Sep 2017 00:00:00 +0900</pubDate><guid>https://blog.zzzmisa.com/heroku_with_rails/</guid><description>&lt;p&gt;Heroku に Rails アプリを公開する方法の備忘録です。&lt;/p&gt;
+&lt;p&gt;今回公開するのは、Rails 5 で作成したアプリアプリです。&lt;br&gt;
+公式ドキュメントの&lt;a href="https://devcenter.heroku.com/articles/getting-started-with-rails5/" target="_blank" rel="noopener"&gt;Getting Started with Rails 5.x on Heroku&lt;/a&gt;を参考に操作していきます。&lt;/p&gt;</description></item><item><title>HerokuのpostgresqlページがInternal Error</title><link>https://blog.zzzmisa.com/heroku_postgresql_internal_error/</link><pubDate>Sun, 10 Sep 2017 00:00:00 +0900</pubDate><guid>https://blog.zzzmisa.com/heroku_postgresql_internal_error/</guid><description>&lt;h2 id="起こった問題"&gt;起こった問題&lt;/h2&gt;
+&lt;p&gt;Heroku の postgresql ページがエラーで表示できませんでした。&lt;br&gt;
+エラー文は以下です。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Internal Error&lt;br&gt;
+Couldn&amp;rsquo;t fetch detail about ****&lt;br&gt;
+Sory about that! Our engineers have been notified.&lt;br&gt;
+Perhaps return to the datastore list?&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;figure&gt;
+ &lt;img src="https://blog.zzzmisa.com/images/heroku_postgresql_internal_error1.png" alt="Referenced from Heroku." width="640" height="492"&gt;
+ 
+ &lt;figcaption&gt;
+ 
+ &lt;a href="https://www.heroku.com/" rel="noopener" target="_blank"&gt;Referenced from Heroku.&lt;/a&gt;
+ 
+ &lt;/figcaption&gt;
+ 
+&lt;/figure&gt;
+
+&lt;p&gt;エラーを検索しても特に関係ありそうな記事は見つかりませんでした。&lt;br&gt;
+障害が起こってるのかなと思って、Heroku の公式ブログを見ても情報無し。&lt;br&gt;
+同じように困っている人はいないかなと思って、Twitter を見ても情報無し。
+&amp;ldquo;return to the datastore list&amp;rdquo; して他のデータベースを見ても同じエラーで開けませんでした。&lt;/p&gt;</description></item></channel></rss>

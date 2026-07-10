@@ -1,1 +1,51 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>advent-calendar on zzzmisa's blog</title><link>https://blog.zzzmisa.com/tags/advent-calendar/</link><description>Recent content in advent-calendar on zzzmisa's blog</description><generator>Hugo -- gohugo.io</generator><language>ja-JP</language><lastBuildDate>Sun, 05 Dec 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.zzzmisa.com/tags/advent-calendar/index.xml" rel="self" type="application/rss+xml"/><item><title>日本語しか読みたくない人ためのGitHubランキング</title><link>https://blog.zzzmisa.com/japan-github-ranking/</link><pubDate>Sun, 05 Dec 2021 00:00:00 +0000</pubDate><guid>https://blog.zzzmisa.com/japan-github-ranking/</guid><description>この記事は クソアプリ Advent Calendar 2021 の 5 日目の記事です 🎄✨ 2019 年に参加してから 2 年ぶりの参加です。 作ったもの GitHub 徘徊、英語ばっかりで辛い…。 面白いリポジト</description></item><item><title>Snykの脆弱性データベースってどれくらい凄いの？</title><link>https://blog.zzzmisa.com/try-snyk/</link><pubDate>Wed, 01 Dec 2021 00:00:00 +0000</pubDate><guid>https://blog.zzzmisa.com/try-snyk/</guid><description>この記事はアドベントカレンダー Snyk を使ってセキュリティにまつわる記事を投稿しよう！【PR】Snyk の 1 日目の記事です 🎅✨ 良い機会なので、Sny</description></item><item><title>オープンデータカレーを使ったゲームアプリを作った</title><link>https://blog.zzzmisa.com/curryjack/</link><pubDate>Mon, 23 Dec 2019 00:00:00 +0000</pubDate><guid>https://blog.zzzmisa.com/curryjack/</guid><description>この記事は クソアプリ 2 Advent Calendar 2019 の 23 日目の記事です 🎄✨ オープンデータのカレー画像を使ったゲームアプリ カレージャック を作りました！ デモ: https://curryjack.zzzmisa.com/ ソース:</description></item><item><title>個人開発 ❤ Vue.jsとBulmaでアイキャッチメーカーをリニューアル</title><link>https://blog.zzzmisa.com/featured-image-maker/</link><pubDate>Sun, 03 Feb 2019 00:00:00 +0000</pubDate><guid>https://blog.zzzmisa.com/featured-image-maker/</guid><description>今更ですが、Vue.js Advent Calendar 2018の 24 日目が空いていたので埋めてみました。 これで 3 回連続アドベントカレンダーの 24 日目をゲットです！メリーク</description></item><item><title>Raspberry Pi用学習リモコン基板ADRSIRとAlexaでスマートホーム</title><link>https://blog.zzzmisa.com/adrsir/</link><pubDate>Mon, 24 Dec 2018 00:00:00 +0000</pubDate><guid>https://blog.zzzmisa.com/adrsir/</guid><description>この記事はおうちハック Advent Calendar 2018の 24 日目です。メリークリスマス！！ Raspberry Pi 用の学習リモコン基板と Alexa でスマートホームにチャレンジしました。 こんな</description></item><item><title>Raspberry Piで固定IPアドレス</title><link>https://blog.zzzmisa.com/raspberrypi_ipaddress/</link><pubDate>Sun, 23 Dec 2018 00:00:00 +0000</pubDate><guid>https://blog.zzzmisa.com/raspberrypi_ipaddress/</guid><description>環境 Raspberry Pi 3（以下ラズパイ） # Raspbianのバージョン確認 $ lsb_release -a No LSB modules are available. Distributor ID: Raspbian Description: Raspbian GNU/Linux 8.0 (jessie) Release: 8.0 Codename: jessie AirStation WSR-2533DHP2（以下エアステ</description></item><item><title>アイキャッチ作成ツールをHTML+CSS+JSで作った</title><link>https://blog.zzzmisa.com/eye_catch_maker/</link><pubDate>Sun, 24 Dec 2017 00:00:00 +0000</pubDate><guid>https://blog.zzzmisa.com/eye_catch_maker/</guid><description>【2018 年 1 月 9 日追記】 この記事で紹介しているツールの正式版を公開しました。 よろしければご活用ください！ https://featured-image-maker.zzzmisa.com/ この記事はCSS Advent Calendar 2017の 24</description></item><item><title>大阪へのJターン転職活動</title><link>https://blog.zzzmisa.com/job_hunting/</link><pubDate>Fri, 16 Dec 2016 00:00:00 +0000</pubDate><guid>https://blog.zzzmisa.com/job_hunting/</guid><description>この記事は転職 Advent Calendar 2016 16 日目です。 書くこと 東京から大阪に J ターンしたので、転職活動がどれくらい大変だったか書きます。 ほんの一例ですが、UIJ タ</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Advent-Calendar on zzzmisa's blog</title><link>https://blog.zzzmisa.com/tags/advent-calendar/</link><description>Recent content in Advent-Calendar on zzzmisa's blog</description><generator>Hugo</generator><language>ja-JP</language><lastBuildDate>Sun, 05 Dec 2021 00:00:00 +0900</lastBuildDate><atom:link href="https://blog.zzzmisa.com/tags/advent-calendar/index.xml" rel="self" type="application/rss+xml"/><item><title>日本語しか読みたくない人ためのGitHubランキング</title><link>https://blog.zzzmisa.com/japan-github-ranking/</link><pubDate>Sun, 05 Dec 2021 00:00:00 +0900</pubDate><guid>https://blog.zzzmisa.com/japan-github-ranking/</guid><description>&lt;p&gt;この記事は &lt;a href="https://qiita.com/advent-calendar/2021/kuso-app" target="_blank" rel="noopener"&gt;クソアプリ Advent Calendar 2021&lt;/a&gt; の 5 日目の記事です 🎄✨&lt;br&gt;
+&lt;a href="https://blog.zzzmisa.com/curryjack/" target="_blank" rel="noopener"&gt;2019 年に参加&lt;/a&gt;してから 2 年ぶりの参加です。&lt;/p&gt;
+&lt;h2 id="作ったもの"&gt;作ったもの&lt;/h2&gt;
+&lt;p&gt;GitHub 徘徊、英語ばっかりで辛い…。&lt;br&gt;
+面白いリポジトリはないかなーっと、ぼんやり眺めたいだけなのに、何でこんなに頭を使わないといけないの。&lt;br&gt;
+そんな日本語しか読みたくない人ための GitHub ランキングを作りました。&lt;br&gt;
+具体的には、Description と Readme 両方に日本語がある程度書かれているリポジトリを GitHub スター数で並べ替えたランキングです。&lt;/p&gt;</description></item><item><title>Snykの脆弱性データベースってどれくらい凄いの？</title><link>https://blog.zzzmisa.com/try-snyk/</link><pubDate>Wed, 01 Dec 2021 00:00:00 +0900</pubDate><guid>https://blog.zzzmisa.com/try-snyk/</guid><description>&lt;p&gt;この記事はアドベントカレンダー &lt;a href="https://qiita.com/advent-calendar/2021/snyk" target="_blank" rel="noopener"&gt;Snyk を使ってセキュリティにまつわる記事を投稿しよう！【PR】Snyk&lt;/a&gt; の 1 日目の記事です 🎅✨&lt;br&gt;
+良い機会なので、Snyk の脆弱性スキャンを試してみました。&lt;/p&gt;</description></item><item><title>オープンデータカレーを使ったゲームアプリを作った</title><link>https://blog.zzzmisa.com/curryjack/</link><pubDate>Mon, 23 Dec 2019 00:00:00 +0900</pubDate><guid>https://blog.zzzmisa.com/curryjack/</guid><description>&lt;p&gt;この記事は &lt;a href="https://qiita.com/advent-calendar/2019/kuso-app2" target="_blank" rel="noopener"&gt;クソアプリ 2 Advent Calendar 2019&lt;/a&gt; の 23 日目の記事です 🎄✨&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;オープンデータのカレー画像を使ったゲームアプリ &lt;em&gt;&lt;a href="https://curryjack.zzzmisa.com/" target="_blank" rel="noopener"&gt;カレージャック&lt;/a&gt;&lt;/em&gt; を作りました！&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;デモ: &lt;a href="https://curryjack.zzzmisa.com/" target="_blank" rel="noopener"&gt;https://curryjack.zzzmisa.com/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;ソース: &lt;a href="https://github.com/zzzmisa/curryjack" target="_blank" rel="noopener"&gt;https://github.com/zzzmisa/curryjack&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="オープンデータとは"&gt;オープンデータとは&lt;/h2&gt;
+&lt;p&gt;オープンデータとは、簡単に言うと二次利用可能な形で公開されているデータのことです。&lt;br&gt;
+今回利用した &lt;a href="https://www.facebook.com/opendatacurry/" target="_blank" rel="noopener"&gt;#オープンデータカレー&lt;/a&gt; は、カレーの写真・お店の位置情報・メニュー名・価格などのオープンデータです。&lt;br&gt;
+素直に考えたら、ガイドマップ作成や出店傾向の分析とかに使えるかなと思います。&lt;/p&gt;</description></item><item><title>個人開発 ❤ Vue.jsとBulmaでアイキャッチメーカーをリニューアル</title><link>https://blog.zzzmisa.com/featured-image-maker/</link><pubDate>Sun, 03 Feb 2019 00:00:00 +0900</pubDate><guid>https://blog.zzzmisa.com/featured-image-maker/</guid><description>&lt;p&gt;今更ですが、&lt;a href="https://qiita.com/advent-calendar/2018/vuejs" target="_blank" rel="noopener"&gt;Vue.js Advent Calendar 2018&lt;/a&gt;の 24 日目が空いていたので埋めてみました。&lt;br&gt;
+これで 3 回連続アドベントカレンダーの 24 日目をゲットです！メリークリスマス！&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;約 1 年前、&lt;a href="https://blog.zzzmisa.com/eye_catch_maker/" target="_blank" rel="noopener"&gt;CSS Advent Calendar 2017 で作った簡単なアイキャッチメーカー&lt;/a&gt;を、Vue.js と Bulma でリニューアルして公開しました。&lt;/p&gt;</description></item><item><title>Raspberry Pi用学習リモコン基板ADRSIRとAlexaでスマートホーム</title><link>https://blog.zzzmisa.com/adrsir/</link><pubDate>Mon, 24 Dec 2018 00:00:00 +0900</pubDate><guid>https://blog.zzzmisa.com/adrsir/</guid><description>&lt;p&gt;この記事は&lt;a href="https://qiita.com/advent-calendar/2018/ouch-hack/" target="_blank" rel="noopener"&gt;おうちハック Advent Calendar 2018&lt;/a&gt;の 24 日目です。メリークリスマス！！&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;Raspberry Pi 用の学習リモコン基板と Alexa でスマートホームにチャレンジしました。&lt;br&gt;
+こんな感じで、エアコンや照明を Alexa から操作できます。&lt;/p&gt;</description></item><item><title>Raspberry Piで固定IPアドレス</title><link>https://blog.zzzmisa.com/raspberrypi_ipaddress/</link><pubDate>Sun, 23 Dec 2018 00:00:00 +0900</pubDate><guid>https://blog.zzzmisa.com/raspberrypi_ipaddress/</guid><description>&lt;h2 id="環境"&gt;環境&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://amzn.to/2CfAtMA" target="_blank" rel="noopener"&gt;Raspberry Pi 3&lt;/a&gt;（以下ラズパイ）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre tabindex="0"&gt;&lt;code&gt;# Raspbianのバージョン確認
+$ lsb_release -a
+No LSB modules are available.
+Distributor ID:	Raspbian
+Description:	Raspbian GNU/Linux 8.0 (jessie)
+Release:	8.0
+Codename:	jessie
+&lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://amzn.to/2D5z1Oo" target="_blank" rel="noopener"&gt;AirStation WSR-2533DHP2&lt;/a&gt;（以下エアステーション）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="エアステーションの-ip-アドレス設定"&gt;エアステーションの IP アドレス設定&lt;/h2&gt;
+&lt;p&gt;エアステーション設定ツールから、無線親機の IP アドレス設定を行っておく。&lt;br&gt;
+デフォルトでは、「DHCP サーバーから IP アドレスを自動的に取得する（かんたん）」にチェックが入っているので「次の IP アドレスを使う（上級者・管理者向け）」にチェックを入れる。&lt;br&gt;
+エアステーション自体の物理スイッチもデフォルトでは「AUTO」になっているので、「MANUAL」に変えておく。&lt;br&gt;
+以下のスクショでは 192.168.11.1 に設定。&lt;/p&gt;</description></item><item><title>アイキャッチ作成ツールをHTML+CSS+JSで作った</title><link>https://blog.zzzmisa.com/eye_catch_maker/</link><pubDate>Sun, 24 Dec 2017 00:00:00 +0900</pubDate><guid>https://blog.zzzmisa.com/eye_catch_maker/</guid><description>&lt;p&gt;【2018 年 1 月 9 日追記】&lt;br&gt;
+この記事で紹介しているツールの正式版を公開しました。&lt;br&gt;
+よろしければご活用ください！&lt;br&gt;
+&lt;a href="https://featured-image-maker.zzzmisa.com/" target="_blank" rel="noopener"&gt;https://featured-image-maker.zzzmisa.com/&lt;/a&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;この記事は&lt;a href="https://qiita.com/advent-calendar/2017/css/" target="_blank" rel="noopener"&gt;CSS Advent Calendar 2017&lt;/a&gt;の 24 日目です。メリークリスマス！！&lt;/p&gt;</description></item><item><title>大阪へのJターン転職活動</title><link>https://blog.zzzmisa.com/job_hunting/</link><pubDate>Fri, 16 Dec 2016 00:00:00 +0900</pubDate><guid>https://blog.zzzmisa.com/job_hunting/</guid><description>&lt;p&gt;この記事は&lt;a href="http://www.adventar.org/calendars/2067/" target="_blank" rel="noopener"&gt;転職 Advent Calendar 2016&lt;/a&gt;
+16 日目です。&lt;/p&gt;
+&lt;h2 id="書くこと"&gt;書くこと&lt;/h2&gt;
+&lt;p&gt;東京から大阪に J ターンしたので、転職活動がどれくらい大変だったか書きます。&lt;br&gt;
+ほんの一例ですが、UIJ ターンを考えている方の参考になると嬉しいです。&lt;/p&gt;</description></item></channel></rss>

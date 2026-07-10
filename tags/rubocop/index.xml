@@ -1,1 +1,23 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>ruboCop on zzzmisa's blog</title><link>https://blog.zzzmisa.com/tags/rubocop/</link><description>Recent content in ruboCop on zzzmisa's blog</description><generator>Hugo -- gohugo.io</generator><language>ja-JP</language><lastBuildDate>Mon, 20 Nov 2017 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.zzzmisa.com/tags/rubocop/index.xml" rel="self" type="application/rss+xml"/><item><title>RuboCop で2回目以降にエラーが出る</title><link>https://blog.zzzmisa.com/rubocop-error/</link><pubDate>Mon, 20 Nov 2017 00:00:00 +0000</pubDate><guid>https://blog.zzzmisa.com/rubocop-error/</guid><description>RuboCop で、最初の実行では上手く行ったのに、2回目以降エラーになってしまうことがありました。 その時のエラーはこちら。 $ rubocop invalid byte sequence in UTF-8 /Users/&amp;</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>RuboCop on zzzmisa's blog</title><link>https://blog.zzzmisa.com/tags/rubocop/</link><description>Recent content in RuboCop on zzzmisa's blog</description><generator>Hugo</generator><language>ja-JP</language><lastBuildDate>Mon, 20 Nov 2017 00:00:00 +0900</lastBuildDate><atom:link href="https://blog.zzzmisa.com/tags/rubocop/index.xml" rel="self" type="application/rss+xml"/><item><title>RuboCop で2回目以降にエラーが出る</title><link>https://blog.zzzmisa.com/rubocop-error/</link><pubDate>Mon, 20 Nov 2017 00:00:00 +0900</pubDate><guid>https://blog.zzzmisa.com/rubocop-error/</guid><description>&lt;p&gt;RuboCop で、最初の実行では上手く行ったのに、2回目以降エラーになってしまうことがありました。&lt;br&gt;
+その時のエラーはこちら。&lt;/p&gt;
+&lt;pre tabindex="0"&gt;&lt;code&gt;$ rubocop
+
+invalid byte sequence in UTF-8
+/Users/&amp;lt;ユーザ名&amp;gt;/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/parser-2.4.0.0/lib/parser/source/buffer.rb:164:in `source=&amp;#39;
+/Users/&amp;lt;ユーザ名&amp;gt;/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/rubocop-0.51.0/lib/rubocop/cached_data.rb:47:in `deserialize_offenses&amp;#39;
+/Users/&amp;lt;ユーザ名&amp;gt;/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/rubocop-0.51.0/lib/rubocop/cached_data.rb:13:in `from_json&amp;#39;
+/Users/&amp;lt;ユーザ名&amp;gt;/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/rubocop-0.51.0/lib/rubocop/result_cache.rb:94:in `load&amp;#39;
+/Users/&amp;lt;ユーザ名&amp;gt;/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/rubocop-0.51.0/lib/rubocop/runner.rb:119:in `file_offense_cache&amp;#39;
+/Users/&amp;lt;ユーザ名&amp;gt;/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/rubocop-0.51.0/lib/rubocop/runner.rb:109:in `file_offenses&amp;#39;
+/Users/&amp;lt;ユーザ名&amp;gt;/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/rubocop-0.51.0/lib/rubocop/runner.rb:100:in `process_file&amp;#39;
+/Users/&amp;lt;ユーザ名&amp;gt;/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/rubocop-0.51.0/lib/rubocop/runner.rb:78:in `block in each_inspected_file&amp;#39;
+/Users/&amp;lt;ユーザ名&amp;gt;/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/rubocop-0.51.0/lib/rubocop/runner.rb:75:in `each&amp;#39;
+/Users/&amp;lt;ユーザ名&amp;gt;/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/rubocop-0.51.0/lib/rubocop/runner.rb:75:in `reduce&amp;#39;
+/Users/&amp;lt;ユーザ名&amp;gt;/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/rubocop-0.51.0/lib/rubocop/runner.rb:75:in `each_inspected_file&amp;#39;
+/Users/&amp;lt;ユーザ名&amp;gt;/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/rubocop-0.51.0/lib/rubocop/runner.rb:67:in `inspect_files&amp;#39;
+/Users/&amp;lt;ユーザ名&amp;gt;/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/rubocop-0.51.0/lib/rubocop/runner.rb:39:in `run&amp;#39;
+/Users/&amp;lt;ユーザ名&amp;gt;/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/rubocop-0.51.0/lib/rubocop/cli.rb:87:in `execute_runner&amp;#39;
+/Users/&amp;lt;ユーザ名&amp;gt;/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/rubocop-0.51.0/lib/rubocop/cli.rb:32:in `run&amp;#39;
+/Users/&amp;lt;ユーザ名&amp;gt;/.rbenv/versions/2.3.5/lib/ruby/gems/2.3.0/gems/rubocop-0.51.0/bin/rubocop:13:in `block in &amp;lt;top (required)&amp;gt;&amp;#39;
+/Users/&amp;lt;ユーザ名&amp;gt;/.rbenv/versions/2.3.5/lib/ruby/2.3.0/benchmark.rb:308:in `realtime&amp;#39;
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;最初は成功したのに、おかしい&amp;hellip;と思って、キャッシュを無効にして実行したら、エラーは出なくなりました。&lt;/p&gt;</description></item></channel></rss>

@@ -1,1 +1,12 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>git on zzzmisa's blog</title><link>https://blog.zzzmisa.com/tags/git/</link><description>Recent content in git on zzzmisa's blog</description><generator>Hugo -- gohugo.io</generator><language>ja-JP</language><lastBuildDate>Sun, 22 Sep 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.zzzmisa.com/tags/git/index.xml" rel="self" type="application/rss+xml"/><item><title>Gitのコミット日時を修正する方法</title><link>https://blog.zzzmisa.com/git_commit_date/</link><pubDate>Sun, 22 Sep 2019 00:00:00 +0000</pubDate><guid>https://blog.zzzmisa.com/git_commit_date/</guid><description>忘れがちなのでメモです。 直前のコミット日時を修正 現状のコミット日時を確認します。 $ git log --pretty=fuller commit 62c6282c9b6a3f20659559a5d975dc16a33cb7cd (HEAD -&amp;gt; master) Author: zzzmisa &amp;lt;__@mail.com&amp;gt; AuthorDate: Sat Sep 21 14:04:18 2019 Commit: zzzmisa &amp;lt;__@mail.com&amp;gt; CommitDate: Sat Sep 21 14:04:18 2019 ... コミ</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Git on zzzmisa's blog</title><link>https://blog.zzzmisa.com/tags/git/</link><description>Recent content in Git on zzzmisa's blog</description><generator>Hugo</generator><language>ja-JP</language><lastBuildDate>Sun, 22 Sep 2019 00:00:00 +0900</lastBuildDate><atom:link href="https://blog.zzzmisa.com/tags/git/index.xml" rel="self" type="application/rss+xml"/><item><title>Gitのコミット日時を修正する方法</title><link>https://blog.zzzmisa.com/git_commit_date/</link><pubDate>Sun, 22 Sep 2019 00:00:00 +0900</pubDate><guid>https://blog.zzzmisa.com/git_commit_date/</guid><description>&lt;p&gt;忘れがちなのでメモです。&lt;/p&gt;
+&lt;h2 id="直前のコミット日時を修正"&gt;直前のコミット日時を修正&lt;/h2&gt;
+&lt;p&gt;現状のコミット日時を確認します。&lt;/p&gt;
+&lt;pre tabindex="0"&gt;&lt;code&gt;$ git log --pretty=fuller
+commit 62c6282c9b6a3f20659559a5d975dc16a33cb7cd (HEAD -&amp;gt; master)
+Author: zzzmisa &amp;lt;__@mail.com&amp;gt;
+AuthorDate: Sat Sep 21 14:04:18 2019
+Commit: zzzmisa &amp;lt;__@mail.com&amp;gt;
+CommitDate: Sat Sep 21 14:04:18 2019
+...
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;コミット時間を 15:00 へ修正することにします。&lt;br&gt;
+まずは、AuthorDate を修正します。&lt;/p&gt;</description></item></channel></rss>

@@ -1,1 +1,32 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>vim on zzzmisa's blog</title><link>https://blog.zzzmisa.com/tags/vim/</link><description>Recent content in vim on zzzmisa's blog</description><generator>Hugo -- gohugo.io</generator><language>ja-JP</language><lastBuildDate>Mon, 20 Nov 2017 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.zzzmisa.com/tags/vim/index.xml" rel="self" type="application/rss+xml"/><item><title>brew linkappsのdeprecated対応</title><link>https://blog.zzzmisa.com/brew-linkapps-deprecated/</link><pubDate>Mon, 20 Nov 2017 00:00:00 +0000</pubDate><guid>https://blog.zzzmisa.com/brew-linkapps-deprecated/</guid><description>brew linkapps は、/Applications フォルダにシンボリックリンクを貼るコマンドですが、いつの間にか deprecated の Warning がでるようになりました。 $ brew linkapps macvim Warning: `brew linkapps`</description></item><item><title>Dein.vimの導入</title><link>https://blog.zzzmisa.com/dein_vim/</link><pubDate>Sun, 10 Sep 2017 00:00:00 +0000</pubDate><guid>https://blog.zzzmisa.com/dein_vim/</guid><description>vim のプラグインマネージャDein.vimの導入メモです。 NeoBundle からの乗り換えです。 Dein.vim インストール 素直に readme に従って入れていきます。 # vimのバージ</description></item><item><title>PrevimでMarkdownのプレビュー</title><link>https://blog.zzzmisa.com/previm/</link><pubDate>Sun, 10 Sep 2017 00:00:00 +0000</pubDate><guid>https://blog.zzzmisa.com/previm/</guid><description>Maekdown がプレビューできる vim プラグインPrevimの導入メモです。 readme に動画がありますが、変更内容をリアルタイムに反映してくれます。便利！ Dein.vim で Previm のイ</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Vim on zzzmisa's blog</title><link>https://blog.zzzmisa.com/tags/vim/</link><description>Recent content in Vim on zzzmisa's blog</description><generator>Hugo</generator><language>ja-JP</language><lastBuildDate>Mon, 20 Nov 2017 00:00:00 +0900</lastBuildDate><atom:link href="https://blog.zzzmisa.com/tags/vim/index.xml" rel="self" type="application/rss+xml"/><item><title>brew linkappsのdeprecated対応</title><link>https://blog.zzzmisa.com/brew-linkapps-deprecated/</link><pubDate>Mon, 20 Nov 2017 00:00:00 +0900</pubDate><guid>https://blog.zzzmisa.com/brew-linkapps-deprecated/</guid><description>&lt;p&gt;&lt;code&gt;brew linkapps&lt;/code&gt; は、/Applications フォルダにシンボリックリンクを貼るコマンドですが、いつの間にか deprecated の Warning がでるようになりました。&lt;/p&gt;
+&lt;pre tabindex="0"&gt;&lt;code&gt;$ brew linkapps macvim
+
+Warning: `brew linkapps` has been deprecated and will eventually be removed!
+
+Unfortunately `brew linkapps` cannot behave nicely with e.g. Spotlight using
+either aliases or symlinks and Homebrew formulae do not build &amp;#34;proper&amp;#34; `.app`
+bundles that can be relocated. Instead, please consider using `brew cask` and
+migrate formulae using `.app`s to casks.
+Linking: /usr/local/opt/macvim/MacVim.app
+Linked 1 app to /Applications
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;どうやら廃止されて無くなるようです。残念なことに、このコマンドはナイスな動きをしないとのこと。&lt;/p&gt;</description></item><item><title>Dein.vimの導入</title><link>https://blog.zzzmisa.com/dein_vim/</link><pubDate>Sun, 10 Sep 2017 00:00:00 +0900</pubDate><guid>https://blog.zzzmisa.com/dein_vim/</guid><description>&lt;p&gt;vim のプラグインマネージャ&lt;a href="https://github.com/Shougo/dein.vim" target="_blank" rel="noopener"&gt;Dein.vim&lt;/a&gt;の導入メモです。&lt;br&gt;
+NeoBundle からの乗り換えです。&lt;/p&gt;
+&lt;h2 id="deinvim-インストール"&gt;Dein.vim インストール&lt;/h2&gt;
+&lt;p&gt;素直に readme に従って入れていきます。&lt;/p&gt;
+&lt;pre tabindex="0"&gt;&lt;code&gt;# vimのバージョン確認（7.4以上が必要）
+$ vim --version
+VIM - Vi IMproved 8.0 (2016 Sep 12, compiled Sep 3 2017 18:35:35)
+
+# .vim/dein フォルダにインストール
+$ curl https://raw.githubusercontent.com/Shougo/dein.vim/master/bin/installer.sh &amp;gt; installer.sh
+$ sh ./installer.sh ~/.vim/dein
+
+# インストールできたらインストーラは消しておく
+$ rm installer.sh
+&lt;/code&gt;&lt;/pre&gt;&lt;h2 id="vimrc-に-deinvim-用の設定を追加"&gt;.vimrc に Dein.vim 用の設定を追加&lt;/h2&gt;
+&lt;p&gt;.vimrc に Dein.vim 用の設定を追加します。&lt;br&gt;
+まずは readme から.vimrc 用の設定をコピーしてきて既存の.vimrc に追加します。&lt;/p&gt;</description></item><item><title>PrevimでMarkdownのプレビュー</title><link>https://blog.zzzmisa.com/previm/</link><pubDate>Sun, 10 Sep 2017 00:00:00 +0900</pubDate><guid>https://blog.zzzmisa.com/previm/</guid><description>&lt;p&gt;Maekdown がプレビューできる vim プラグイン&lt;a href="https://github.com/kannokanno/previm/" target="_blank" rel="noopener"&gt;Previm&lt;/a&gt;の導入メモです。&lt;br&gt;
+readme に動画がありますが、変更内容をリアルタイムに反映してくれます。便利！&lt;/p&gt;
+&lt;h2 id="deinvim-で-previm-のインストール"&gt;Dein.vim で Previm のインストール&lt;/h2&gt;
+&lt;p&gt;プラグインマネージャ Dein.vim を使ってインストールします。
+Dein.vim の導入方法は&lt;a href="https://blog.zzzmisa.com/dein_vim/"&gt;こちら&lt;/a&gt;。&lt;/p&gt;</description></item></channel></rss>
