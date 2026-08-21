@@ -16,7 +16,7 @@
 - [-webkit-text-size-adjust: 100%の時にiOSでzoomが効かない問題](https://blog.zzzmisa.com/zoom/)
 - [JSであいまい検索ができるFuse.jsの使い方](https://blog.zzzmisa.com/fusejs/)
 - [個人開発 ❤ Vue.jsとBulmaでアイキャッチメーカーをリニューアル](https://blog.zzzmisa.com/featured-image-maker/)
-- [プライバシーポリシー](https://blog.zzzmisa.com/privacy/)
+- [プライバシーポリシー移転のお知らせ](https://blog.zzzmisa.com/privacy/)
 - [Raspberry Pi用学習リモコン基板ADRSIRとAlexaでスマートホーム](https://blog.zzzmisa.com/adrsir/)
 - [Raspberry Piで固定IPアドレス](https://blog.zzzmisa.com/raspberrypi_ipaddress/)
 - [夫婦同時に7ヶ月の育休を取った感想](https://blog.zzzmisa.com/childcare_leave/)
