@@ -11,7 +11,6 @@
 - [ポート番号や実行コマンド名からプロセスをkill](https://blog.zzzmisa.com/kill-process/)
 - [Vue CLI 3でプラグインをアンインストール](https://blog.zzzmisa.com/uninstall-vue-cli-plugin/)
 - [Gitのコミット日時を修正する方法](https://blog.zzzmisa.com/git_commit_date/)
-- [免責事項](https://blog.zzzmisa.com/notice/)
 - [スカイプ英会話フレーズ集](https://blog.zzzmisa.com/english-phrase/)
 - [-webkit-text-size-adjust: 100%の時にiOSでzoomが効かない問題](https://blog.zzzmisa.com/zoom/)
 - [JSであいまい検索ができるFuse.jsの使い方](https://blog.zzzmisa.com/fusejs/)
